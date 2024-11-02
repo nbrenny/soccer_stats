@@ -1,0 +1,145 @@
+{
+  "Orlando vs. Charlotte (Oct 28)": {
+    "home": {
+      "abbreviation": "ORL",
+      "name": "Orlando",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "CLT",
+      "name": "Charlotte",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/orlvsclt-10-27-2024"
+  },
+  "LAFC vs. Vancouver (Oct 28)": {
+    "home": {
+      "abbreviation": "LAFC",
+      "name": "LAFC",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "VAN",
+      "name": "Vancouver",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/lafcvsvan-10-27-2024"
+  },
+  "Cincinnati vs. New York City (Oct 29)": {
+    "home": {
+      "abbreviation": "CIN",
+      "name": "Cincinnati",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "NYC",
+      "name": "New York City",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/cinvsnyc-10-28-2024"
+  },
+  "Seattle vs. Houston (Oct 29)": {
+    "home": {
+      "abbreviation": "SEA",
+      "name": "Seattle",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "HOU",
+      "name": "Houston",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/seavshou-10-28-2024"
+  },
+  "(2)Columbus vs. New York(7) (Oct 30)": {
+    "home": {
+      "abbreviation": "(2)CLB",
+      "name": "(2)Columbus",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "RBNY(7)",
+      "name": "New York(7)",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/clbvsrbny-10-29-2024"
+  },
+  "(3)Salt Lake vs. Minnesota(6) (Oct 30)": {
+    "home": {
+      "abbreviation": "(3)RSL",
+      "name": "(3)Salt Lake",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "MIN(6)",
+      "name": "Minnesota(6)",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/rslvsmin-10-29-2024"
+  },
+  "(5)Charlotte vs. Orlando(4) (Nov 2)": {
+    "home": {
+      "abbreviation": "(5)CLT",
+      "name": "(5)Charlotte",
+      "score": null
+    },
+    "away": {
+      "abbreviation": "ORL(4)",
+      "name": "Orlando(4)",
+      "score": null
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/cltvsorl-11-01-2024"
+  },
+  "(7)Colorado vs. LA(2) (Nov 2)": {
+    "home": {
+      "abbreviation": "(7)COL",
+      "name": "(7)Colorado",
+      "score": null
+    },
+    "away": {
+      "abbreviation": "LA(2)",
+      "name": "LA(2)",
+      "score": null
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/colvsla-11-01-2024"
+  },
+  "(6)New York City vs. Cincinnati(3) (Nov 3)": {
+    "home": {
+      "abbreviation": "(6)NYC",
+      "name": "(6)New York City",
+      "score": null
+    },
+    "away": {
+      "abbreviation": "CIN(3)",
+      "name": "Cincinnati(3)",
+      "score": null
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/nycvscin-11-02-2024"
+  },
+  "(8)Atlanta vs. Miami(1) (Nov 3)": {
+    "home": {
+      "abbreviation": "(8)ATL",
+      "name": "(8)Atlanta",
+      "score": null
+    },
+    "away": {
+      "abbreviation": "MIA(1)",
+      "name": "Miami(1)",
+      "score": null
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/atlvsmia-11-02-2024"
+  },
+  "(6)Minnesota vs. Salt Lake(3) (Nov 3)": {
+    "home": {
+      "abbreviation": "(6)MIN",
+      "name": "(6)Minnesota",
+      "score": null
+    },
+    "away": {
+      "abbreviation": "RSL(3)",
+      "name": "Salt Lake(3)",
+      "score": null
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/minvsrsl-11-02-2024"
+  }
+}
