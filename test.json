@@ -1,8 +1,111 @@
 {
-  "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/cinvsnyc-10-28-2024/feed": [
-    {
-      "minute": "90'+9'",
-      "description": "Tayvon Gray (New York City FC) is shown the red card for violent conduct.24T. GrayDefenderNYC"
+  "(7)New York vs. Columbus(2) (Today, Nov 4)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/rbnyvsclb-11-03-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_0": {
+            "minute": "90'+5'",
+            "description": "Sean Nealis (New York Red Bulls) is shown the yellow card for the foul.",
+            "name": "Sean Nealis ",
+            "club": "New York Red Bulls"
+          }
+        }
+      }
     }
-  ]
+  },
+  "(5)Houston vs. Seattle(4) (Today, Nov 4)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/houvssea-11-03-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "(8)Vancouver vs. LAFC(1) (Today, Nov 4)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/vanvslafc-11-03-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 2,
+          "yellow_card_0": {
+            "minute": "89'",
+            "description": "Eddie Segura (Los Angeles Football Club) is shown the yellow card for the foul.",
+            "name": "Eddie Segura ",
+            "club": "Los Angeles Football Club"
+          },
+          "yellow_card_1": {
+            "minute": "84'",
+            "description": "Jes\u00fas Murillo (Los Angeles Football Club) is shown the yellow card for the foul.",
+            "name": "Jes\u00fas Murillo ",
+            "club": "Los Angeles Football Club"
+          }
+        }
+      }
+    }
+  },
+  "(1)LAFC vs. Vancouver(8) (Nov 9)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/lafcvsvan-11-08-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "(3)Cincinnati vs. New York City(6) (Nov 10)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/cinvsnyc-11-09-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "(4)Orlando vs. Charlotte(5) (Nov 10)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/orlvsclt-11-09-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "(1)Miami vs. Atlanta(8) (Nov 10)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/miavsatl-11-09-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  }
 }

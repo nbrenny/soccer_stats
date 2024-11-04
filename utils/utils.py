@@ -48,11 +48,19 @@ def get_analysis_dir():
 
 def countdown_timer(seconds):
     print('')
+    max_message_length = len(f"Waiting {seconds} seconds for page to load...")
+
     for remaining in range(seconds, 0, -1):
-        sys.stdout.write(f"\rWaiting {remaining} seconds for page to load...")
+        message = f"Waiting {remaining} seconds for page to load..."
+        # Pad the message to match the maximum length, ensuring no leftover characters
+        sys.stdout.write(f"\r{message}{' ' * (max_message_length - len(message))}")
         sys.stdout.flush()
         time.sleep(1)
-    print("\rPage loaded!")
+    
+    # Final message after countdown ends
+    final_message = f"Waited {seconds} seconds to load"
+    sys.stdout.write(f"\r{final_message}{' ' * (max_message_length - len(final_message))}\n")
+    sys.stdout.flush()
 
 
 def get_soup(url, use_selenium=True, wait_time=5):
@@ -102,3 +110,17 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+
+misconduct = {
+    'send off': [
+        'violent conduct',
+        'serious foul play',
+        'second yellow'
+        ],
+    'caution': [
+        'unsporting behavior',
+        'poor sportsmanship',
+        'foul'
+    ]
+}

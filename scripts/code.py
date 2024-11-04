@@ -7,11 +7,10 @@ import sys
 import time
 import re
 from utils.utils import read_json, bcolors, get_soup, save_to_json
-
+import get_stats
 
 
 # TO DO 
-# - have get_inputs return a dictionary that contains the score and title of the match
 # - have query save to a dictionary of the same structure
 
 def parse_args():
@@ -34,45 +33,21 @@ def check_inputs(args):
 
 
 def get_inputs(url,input_json):
-    url_list = []
+    url_dic = {}
     if url: 
-        url_list.append(url)
+        url_dic['unknown match'] = {'url': url}
     if input_json:
         input_dict = read_json(input_json)
-        input_urls = [input_dict[key]['match_link'] for key in input_dict]
-        url_list+=input_urls
-    return url_list
+        for key in input_dict.keys():
+            url_dic[key] = {'url': input_dict[key]['match_link']}
+    return url_dic
 
 
 def query(soup):
-    red_card_events = []
-
-    # Find all red card commentary elements
-    red_card_elements = soup.find_all(class_="mls-o-match-feed__commentary--red-card")
+    return_dict = {}
+    return_dict['misconduct'] = get_stats.misconduct(soup)
     
-    for red_card in red_card_elements:
-        event_data = {}
-        
-        # Extract the minute of the event
-        minute_tag = red_card.find(class_="mls-o-match-feed__minute")
-        event_data["minute"] = minute_tag.get_text(strip=True) if minute_tag else "N/A"
-        
-        # Extract the description or body of the event
-        body_tag = red_card.find(class_="mls-o-match-feed__body--no-video")
-        event_data["description"] = body_tag.get_text(strip=True) if body_tag else "N/A"
-        
-        # Add the structured event data to the list
-        red_card_events.append(event_data)
-    
-    # Print or process the list of red card events
-    if red_card_events:
-        print("Red card events found:")
-        for event in red_card_events:
-            print(event)
-    else:
-        print("No red card events found in the match.")
-    
-    return red_card_events
+    return return_dict
 
 
 def main():
@@ -86,9 +61,11 @@ def main():
     wait_time = args['wait_time']
 
     matches={}
-    for URL in get_inputs(url,input_json):
+    di = get_inputs(url,input_json)
+    for key in di.keys():
+        URL=di[key]['url']
         soup = get_soup(URL, use_selenium=not selenium, wait_time=wait_time)
-        matches[URL] = query(soup)  
+        matches[key] = {'url':di[key]['url'],'misconduct':query(soup)}
 
     save_to_json(matches,output_json)
 
