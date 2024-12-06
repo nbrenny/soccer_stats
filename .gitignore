@@ -1,2 +1,4 @@
 .mls/
 README_local.md
+*/__pycache__/
+__pycache__/

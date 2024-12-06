@@ -1,4 +1,5 @@
-dir: /Users/nbrenny/Documents/fun/mls/url/2024-11-04/
-outfile: 2024-11-04.json
-url: https://www.mlssoccer.com/schedule/scores#competition=all&club=all&date=2024-11-04
-wait_time: 1
+dir: /Users/nbrenny/Documents/fun/mls/url/2024-11-26/
+outfile: 2024-11-26.json
+saved_match_list_json: /Users/nbrenny/Documents/fun/mls/url/2024-11-26//2024-11-26.json
+url: https://www.mlssoccer.com/schedule/scores#competition=all&club=all&date=2024-11-26
+wait_time: 5

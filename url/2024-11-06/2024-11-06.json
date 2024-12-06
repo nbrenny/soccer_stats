@@ -1,0 +1,93 @@
+{
+  "(7)New York vs. Columbus(2) (Nov 4)": {
+    "home": {
+      "abbreviation": "(7)RBNY",
+      "name": "(7)New York",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "CLB(2)",
+      "name": "Columbus(2)",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/rbnyvsclb-11-03-2024/feed"
+  },
+  "(5)Houston vs. Seattle(4) (Nov 4)": {
+    "home": {
+      "abbreviation": "(5)HOU",
+      "name": "(5)Houston",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "SEA(4)",
+      "name": "Seattle(4)",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/houvssea-11-03-2024/feed"
+  },
+  "(8)Vancouver vs. LAFC(1) (Nov 4)": {
+    "home": {
+      "abbreviation": "(8)VAN",
+      "name": "(8)Vancouver",
+      "score": "3"
+    },
+    "away": {
+      "abbreviation": "LAFC(1)",
+      "name": "LAFC(1)",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/vanvslafc-11-03-2024/feed"
+  },
+  "(1)LAFC vs. Vancouver(8) (Nov 9)": {
+    "home": {
+      "abbreviation": "(1)LAFC",
+      "name": "(1)LAFC",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "VAN(8)",
+      "name": "Vancouver(8)",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/lafcvsvan-11-08-2024/feed"
+  },
+  "(3)Cincinnati vs. New York City(6) (Nov 10)": {
+    "home": {
+      "abbreviation": "(3)CIN",
+      "name": "(3)Cincinnati",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "NYC(6)",
+      "name": "New York City(6)",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/cinvsnyc-11-09-2024/feed"
+  },
+  "(4)Orlando vs. Charlotte(5) (Nov 10)": {
+    "home": {
+      "abbreviation": "(4)ORL",
+      "name": "(4)Orlando",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "CLT(5)",
+      "name": "Charlotte(5)",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/orlvsclt-11-09-2024/feed"
+  },
+  "(1)Miami vs. Atlanta(8) (Nov 10)": {
+    "home": {
+      "abbreviation": "(1)MIA",
+      "name": "(1)Miami",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "ATL(8)",
+      "name": "Atlanta(8)",
+      "score": "3"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/miavsatl-11-09-2024/feed"
+  }
+}

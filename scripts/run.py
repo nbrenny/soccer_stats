@@ -6,13 +6,16 @@ import argparse
 import sys
 import time
 import re
-from utils.utils import read_json, bcolors, get_soup, save_to_json, load_yaml
+from utils.utils import read_json, bcolors, get_soup, save_to_json, load_yaml, get_analysis_dir
 import get_stats
 import os
+from launch_list import create_dict
+import create_match_list
+import launch_list
 
 
-# TO DO 
-# - have query save to a dictionary of the same structure
+# DEV
+# - attempt to call functions from scripts in one file to avoid needing *.sh files
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Check MLS match')
@@ -21,6 +24,7 @@ def parse_args():
     parser.add_argument('-c', '--config', help='Config file', required=False, default=None)
     parser.add_argument('-i', '--input_json', help='Input json of URLs to check', required=False, default=None)
     parser.add_argument('-o', '--output_json', help='Output json with stats', required=False, default=None)
+    parser.add_argument('-s', '--time_shift', help='Lookback in integer days', required=False, default=None, type=int)
     parser.add_argument('--no_selenium', help='Don\'t use selenium', required=False, default=False, action='store_true')
     args = vars(parser.parse_args())
     return args
@@ -48,10 +52,20 @@ def get_inputs(url,input_json):
 def query(soup):
     return_dict = {}
     return_dict['misconduct'] = get_stats.misconduct(soup)
+    
     return return_dict
 
 
 def main():
+    # parse args
+    args=parse_args()
+
+    # create lists config
+    launch_list.main(['--shift',args['time_shift']])
+    
+    # create match list
+    create_match_list.main(['--config', args['config'], '--wait_time', args['wait_time']])
+
     # Parse arguments
     args = parse_args()
     check_inputs(args)
@@ -60,8 +74,8 @@ def main():
     if args['config']:
         config = load_yaml(args['config'])
 
-    input_json = config['saved_match_list_json'] if config else args['input_json']
-    output_json = os.path.dirname(input_json)+'/stats.json' if input_json else args['output_json']
+    input_json = config['saved_match_list_json'] if 'saved_match_list_json' in config else args['input_json']
+    output_json = os.path.dirname(input_json)+'/stats.json' # args['output_json']
     selenium = args['no_selenium']
     wait_time = args['wait_time']
 

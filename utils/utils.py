@@ -63,6 +63,23 @@ def countdown_timer(seconds):
     sys.stdout.flush()
 
 
+def scroll_to_bottom(driver, scroll_pause_time=5):
+    """Scroll to the bottom of the page to load dynamic content."""
+    last_height = driver.execute_script("return document.body.scrollHeight")
+    while True:
+        # Scroll down to the bottom
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        
+        # Wait for the page to load
+        time.sleep(scroll_pause_time)
+        
+        # Calculate new scroll height and compare with the last height
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+
+
 def get_soup(url, use_selenium=True, wait_time=5):
     if use_selenium:
         try:
@@ -77,7 +94,11 @@ def get_soup(url, use_selenium=True, wait_time=5):
             driver = webdriver.Chrome(options=chrome_options)
             driver.get(url)
             
+            # Optional initial wait
             countdown_timer(wait_time)
+
+            # Scroll to the bottom of the page
+            scroll_to_bottom(driver)
 
             # Get the page source after JS has rendered
             html = driver.page_source
@@ -98,6 +119,19 @@ def get_soup(url, use_selenium=True, wait_time=5):
     
     print(f'Loaded page {url}')
     return soup
+
+
+def load_yaml(file_path):
+    """Load configuration values from a YAML file."""
+
+    try:
+        with open(file_path, 'r') as f:
+            config = yaml.safe_load(f) or {}
+    except FileNotFoundError:
+        print(f"{bcolors.FAIL}Configuration file '{file_path}' not found. Using default values.{bcolors.ENDC}")
+        config = {}
+
+    return config
 
 
 class bcolors:

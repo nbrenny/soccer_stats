@@ -7,6 +7,9 @@ def red_cards(soup: BeautifulSoup) -> dict:
     # Find all red card commentary elements
     red_card_elements = soup.find_all(class_="mls-o-match-feed__commentary mls-o-match-feed__commentary--red-card")
     red_card_information['n_red_cards'] = len(red_card_elements)
+    second_yellow_card_elements = soup.find_all(class_="mls-o-match-feed__commentary mls-o-match-feed__commentary--secondyellow-card")
+    red_card_information['n_red_cards'] += len(second_yellow_card_elements)
+    red_card_elements+=second_yellow_card_elements
     for i,red_card in enumerate(red_card_elements):
         event_data = {}
         
@@ -26,7 +29,7 @@ def red_cards(soup: BeautifulSoup) -> dict:
         event_data["description"] = description.get_text(strip=True) if description else "N/A"
         
         # Add the structured event data to the list
-        red_card_information[f'red_card_{i}']=event_data
+        red_card_information[f'red_card_{i+1}']=event_data
 
     return red_card_information
 
@@ -53,7 +56,7 @@ def yellow_cards(soup: BeautifulSoup) -> dict:
         event_data["club"] = partitioned_description_string[-1].partition(')')[0]
         
         # Add the structured event data to the list
-        yellow_card_information[f'yellow_card_{i}']=event_data
+        yellow_card_information[f'yellow_card_{i+1}']=event_data
 
     return yellow_card_information
 

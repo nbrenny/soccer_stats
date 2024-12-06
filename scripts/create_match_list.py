@@ -2,14 +2,16 @@ from utils.utils import get_soup
 import argparse
 import re
 import os
-from utils.utils import save_to_json
+from utils.utils import save_to_json, save_to_yaml
 import yaml
+import sys
 
 
-def parse_args():
+def parse_args(args):
     parser = argparse.ArgumentParser(description='Create url list')
     parser.add_argument('-c', '--config', help='config file', required=True)
-    args = vars(parser.parse_args())
+    parser.add_argument('-w', '--wait', help='Overriden default wait time [seconds]', required=False, default=None, type=int)
+    args = vars(parser.parse_args(args))
     return args
 
 
@@ -99,15 +101,18 @@ def extract(matches_div):
     return match_data
 
 
-def main():
-    args=parse_args()
+def main(args):
+    args=parse_args(args)
     config=load_config_from_yaml(args['config'])
-    soup=get_soup(config['url'],wait_time=config['wait_time'])
+    soup=get_soup(config['url'],wait_time=args['wait']) if args['wait'] else get_soup(config['url'],wait_time=config['wait_time'])
     matches_div=query(soup)
     match_data=extract(matches_div)
-    save_to_json(match_data,config['dir']+'/'+config['outfile'])
-    print(f"\n\n{config['dir']}")
+    json_filename = config['dir']+'/'+config['outfile']
+    save_to_json(match_data,json_filename)
+    config['saved_match_list_json'] = json_filename
+    save_to_yaml(config,args['config'],printout=False)
+    #print(f"\n\n{config['dir']}")
 
 
 if __name__=="__main__":
-    main()
+    main(sys.argv[1:])
