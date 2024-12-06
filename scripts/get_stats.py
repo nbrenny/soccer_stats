@@ -5,7 +5,7 @@ def red_cards(soup: BeautifulSoup) -> dict:
     red_card_information = {}
 
     # Find all red card commentary elements
-    red_card_elements = soup.find_all(class_="mls-o-match-feed__commentary--red-card")
+    red_card_elements = soup.find_all(class_="mls-o-match-feed__commentary mls-o-match-feed__commentary--red-card")
     red_card_information['n_red_cards'] = len(red_card_elements)
     for i,red_card in enumerate(red_card_elements):
         event_data = {}
