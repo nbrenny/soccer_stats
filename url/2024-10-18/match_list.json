@@ -1,0 +1,197 @@
+{
+  "Vancouver vs. LAFC (Oct 14)": {
+    "home": {
+      "abbreviation": "VAN",
+      "name": "Vancouver",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "LAFC",
+      "name": "LAFC",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/vanvslafc-10-13-2024/feed"
+  },
+  "Chicago vs. Nashville (Oct 20)": {
+    "home": {
+      "abbreviation": "CHI",
+      "name": "Chicago",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "NSH",
+      "name": "Nashville",
+      "score": "3"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/chivsnsh-10-19-2024/feed"
+  },
+  "D.C. vs. Charlotte (Oct 20)": {
+    "home": {
+      "abbreviation": "DC",
+      "name": "D.C.",
+      "score": "0"
+    },
+    "away": {
+      "abbreviation": "CLT",
+      "name": "Charlotte",
+      "score": "3"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/dcvsclt-10-19-2024/feed"
+  },
+  "Miami vs. New England (Oct 20)": {
+    "home": {
+      "abbreviation": "MIA",
+      "name": "Miami",
+      "score": "6"
+    },
+    "away": {
+      "abbreviation": "NE",
+      "name": "New England",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/miavsne-10-19-2024/feed"
+  },
+  "Montr\u00e9al vs. New York City (Oct 20)": {
+    "home": {
+      "abbreviation": "MTL",
+      "name": "Montr\u00e9al",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "NYC",
+      "name": "New York City",
+      "score": "0"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/mtlvsnyc-10-19-2024/feed"
+  },
+  "New York vs. Columbus (Oct 20)": {
+    "home": {
+      "abbreviation": "RBNY",
+      "name": "New York",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "CLB",
+      "name": "Columbus",
+      "score": "3"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/rbnyvsclb-10-19-2024/feed"
+  },
+  "Orlando vs. Atlanta (Oct 20)": {
+    "home": {
+      "abbreviation": "ORL",
+      "name": "Orlando",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "ATL",
+      "name": "Atlanta",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/orlvsatl-10-19-2024/feed"
+  },
+  "Philadelphia vs. Cincinnati (Oct 20)": {
+    "home": {
+      "abbreviation": "PHI",
+      "name": "Philadelphia",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "CIN",
+      "name": "Cincinnati",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/phivscin-10-19-2024/feed"
+  },
+  "Austin vs. Colorado (Oct 20)": {
+    "home": {
+      "abbreviation": "ATX",
+      "name": "Austin",
+      "score": "3"
+    },
+    "away": {
+      "abbreviation": "COL",
+      "name": "Colorado",
+      "score": "2"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/atxvscol-10-19-2024/feed"
+  },
+  "Dallas vs. Kansas City (Oct 20)": {
+    "home": {
+      "abbreviation": "DAL",
+      "name": "Dallas",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "SKC",
+      "name": "Kansas City",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/dalvsskc-10-19-2024/feed"
+  },
+  "Houston vs. LA (Oct 20)": {
+    "home": {
+      "abbreviation": "HOU",
+      "name": "Houston",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "LA",
+      "name": "LA",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/houvsla-10-19-2024/feed"
+  },
+  "LAFC vs. San Jose (Oct 20)": {
+    "home": {
+      "abbreviation": "LAFC",
+      "name": "LAFC",
+      "score": "3"
+    },
+    "away": {
+      "abbreviation": "SJ",
+      "name": "San Jose",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/lafcvssj-10-19-2024/feed"
+  },
+  "Minnesota vs. St. Louis (Oct 20)": {
+    "home": {
+      "abbreviation": "MIN",
+      "name": "Minnesota",
+      "score": "4"
+    },
+    "away": {
+      "abbreviation": "STL",
+      "name": "St. Louis",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/minvsstl-10-19-2024/feed"
+  },
+  "Salt Lake vs. Vancouver (Oct 20)": {
+    "home": {
+      "abbreviation": "RSL",
+      "name": "Salt Lake",
+      "score": "2"
+    },
+    "away": {
+      "abbreviation": "VAN",
+      "name": "Vancouver",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/rslvsvan-10-19-2024/feed"
+  },
+  "Seattle vs. Portland (Oct 20)": {
+    "home": {
+      "abbreviation": "SEA",
+      "name": "Seattle",
+      "score": "1"
+    },
+    "away": {
+      "abbreviation": "POR",
+      "name": "Portland",
+      "score": "1"
+    },
+    "match_link": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/seavspor-10-19-2024/feed"
+  }
+}

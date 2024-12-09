@@ -7,13 +7,7 @@
           "n_red_cards": 0
         },
         "yellow cards": {
-          "n_yellow_cards": 1,
-          "yellow_card_1": {
-            "minute": "59'",
-            "description": "Derrick Williams (Atlanta United) is shown the yellow card for the foul.",
-            "name": "Derrick Williams ",
-            "club": "Atlanta United"
-          }
+          "n_yellow_cards": 0
         }
       }
     }
@@ -32,41 +26,11 @@
           }
         },
         "yellow cards": {
-          "n_yellow_cards": 6,
+          "n_yellow_cards": 1,
           "yellow_card_1": {
             "minute": "90'+4'",
             "description": "Mark Delgado (LA Galaxy) is shown the yellow card for the foul.",
             "name": "Mark Delgado ",
-            "club": "LA Galaxy"
-          },
-          "yellow_card_2": {
-            "minute": "68'",
-            "description": "Jefferson Diaz (Minnesota United) is shown the yellow card for the foul.",
-            "name": "Jefferson Diaz ",
-            "club": "Minnesota United"
-          },
-          "yellow_card_3": {
-            "minute": "62'",
-            "description": "Hassani Dotson (Minnesota United) is shown the yellow card for the foul.",
-            "name": "Hassani Dotson ",
-            "club": "Minnesota United"
-          },
-          "yellow_card_4": {
-            "minute": "58'",
-            "description": "Riqui Puig (LA Galaxy) is shown the yellow card for the foul.",
-            "name": "Riqui Puig ",
-            "club": "LA Galaxy"
-          },
-          "yellow_card_5": {
-            "minute": "53'",
-            "description": "Bongokuhle Hlongwane (Minnesota United) is shown the yellow card for the foul.",
-            "name": "Bongokuhle Hlongwane ",
-            "club": "Minnesota United"
-          },
-          "yellow_card_6": {
-            "minute": "45'",
-            "description": "Joseph Paintsil (LA Galaxy) is shown the yellow card for poor sportsmanship.",
-            "name": "Joseph Paintsil ",
             "club": "LA Galaxy"
           }
         }
@@ -81,24 +45,12 @@
           "n_red_cards": 0
         },
         "yellow cards": {
-          "n_yellow_cards": 3,
+          "n_yellow_cards": 1,
           "yellow_card_1": {
             "minute": "90'+2'",
             "description": "Rodrigo Schlegel (Orlando City) is shown the yellow card for the foul.",
             "name": "Rodrigo Schlegel ",
             "club": "Orlando City"
-          },
-          "yellow_card_2": {
-            "minute": "67'",
-            "description": "Sean Nealis (New York Red Bulls) is shown the yellow card for the foul.",
-            "name": "Sean Nealis ",
-            "club": "New York Red Bulls"
-          },
-          "yellow_card_3": {
-            "minute": "24'",
-            "description": "Andres Reyes (New York Red Bulls) is shown the yellow card for the foul.",
-            "name": "Andres Reyes ",
-            "club": "New York Red Bulls"
           }
         }
       }
@@ -112,7 +64,7 @@
           "n_red_cards": 0
         },
         "yellow cards": {
-          "n_yellow_cards": 4,
+          "n_yellow_cards": 2,
           "yellow_card_1": {
             "minute": "90'+6'",
             "description": "Jackson Ragen (Seattle Sounders FC) is shown the yellow card for the foul.",
@@ -123,18 +75,6 @@
             "minute": "74'",
             "description": "Nouhou Tolo (Seattle Sounders FC) is shown the yellow card for the foul.",
             "name": "Nouhou Tolo ",
-            "club": "Seattle Sounders FC"
-          },
-          "yellow_card_3": {
-            "minute": "61'",
-            "description": "Cristian Roldan (Seattle Sounders FC) is shown the yellow card for the foul.",
-            "name": "Cristian Roldan ",
-            "club": "Seattle Sounders FC"
-          },
-          "yellow_card_4": {
-            "minute": "55'",
-            "description": "Pedro de la Vega (Seattle Sounders FC) is shown the yellow card for the foul.",
-            "name": "Pedro de la Vega ",
             "club": "Seattle Sounders FC"
           }
         }

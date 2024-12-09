@@ -1,0 +1,287 @@
+{
+  "Vancouver vs. LAFC (Oct 14)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/vanvslafc-10-13-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Chicago vs. Nashville (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/chivsnsh-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_1": {
+            "minute": "69'",
+            "description": "An\u00edbal Godoy (Nashville SC) is shown the yellow card for the foul.",
+            "name": "An\u00edbal Godoy ",
+            "club": "Nashville SC"
+          }
+        }
+      }
+    }
+  },
+  "D.C. vs. Charlotte (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/dcvsclt-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_1": {
+            "minute": "79'",
+            "description": "Kristijan Kahlina (Charlotte FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Kristijan Kahlina ",
+            "club": "Charlotte FC"
+          }
+        }
+      }
+    }
+  },
+  "Miami vs. New England (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/miavsne-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Montr\u00e9al vs. New York City (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/mtlvsnyc-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 3,
+          "yellow_card_1": {
+            "minute": "90'",
+            "description": "Birk Risa (New York City FC) is shown the yellow card for the foul.",
+            "name": "Birk Risa ",
+            "club": "New York City FC"
+          },
+          "yellow_card_2": {
+            "minute": "88'",
+            "description": "Joel Waterman (CF Montr\u00e9al) is shown the yellow card for the foul.",
+            "name": "Joel Waterman ",
+            "club": "CF Montr\u00e9al"
+          },
+          "yellow_card_3": {
+            "minute": "69'",
+            "description": "Keaton Parks (New York City FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Keaton Parks ",
+            "club": "New York City FC"
+          }
+        }
+      }
+    }
+  },
+  "New York vs. Columbus (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/rbnyvsclb-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_1": {
+            "minute": "90'",
+            "description": "Serge Patrick Ngoma Jr. (New York Red Bulls) is shown the yellow card for the foul.",
+            "name": "Serge Patrick Ngoma Jr. ",
+            "club": "New York Red Bulls"
+          }
+        }
+      }
+    }
+  },
+  "Orlando vs. Atlanta (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/orlvsatl-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Philadelphia vs. Cincinnati (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/phivscin-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Austin vs. Colorado (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/atxvscol-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Dallas vs. Kansas City (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/dalvsskc-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 0
+        }
+      }
+    }
+  },
+  "Houston vs. LA (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/houvsla-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_1": {
+            "minute": "90'+6'",
+            "description": "Brooklyn Raines (Houston Dynamo FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Brooklyn Raines ",
+            "club": "Houston Dynamo FC"
+          }
+        }
+      }
+    }
+  },
+  "LAFC vs. San Jose (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/lafcvssj-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 2,
+          "yellow_card_1": {
+            "minute": "85'",
+            "description": "Oscar Verhoeven (San Jose Earthquakes) is shown the yellow card for poor sportsmanship.",
+            "name": "Oscar Verhoeven ",
+            "club": "San Jose Earthquakes"
+          },
+          "yellow_card_2": {
+            "minute": "78'",
+            "description": "Bruno Wilson (San Jose Earthquakes) is shown the yellow card for the foul.",
+            "name": "Bruno Wilson ",
+            "club": "San Jose Earthquakes"
+          }
+        }
+      }
+    }
+  },
+  "Minnesota vs. St. Louis (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/minvsstl-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 1,
+          "yellow_card_1": {
+            "minute": "74'",
+            "description": "Rasmus Alm (St. Louis CITY SC) is shown the yellow card for poor sportsmanship.",
+            "name": "Rasmus Alm ",
+            "club": "St. Louis CITY SC"
+          }
+        }
+      }
+    }
+  },
+  "Salt Lake vs. Vancouver (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/rslvsvan-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 0
+        },
+        "yellow cards": {
+          "n_yellow_cards": 2,
+          "yellow_card_1": {
+            "minute": "90'+2'",
+            "description": "Sebastian Berhalter (Vancouver Whitecaps FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Sebastian Berhalter ",
+            "club": "Vancouver Whitecaps FC"
+          },
+          "yellow_card_2": {
+            "minute": "85'",
+            "description": "Ali Ahmed (Vancouver Whitecaps FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Ali Ahmed ",
+            "club": "Vancouver Whitecaps FC"
+          }
+        }
+      }
+    }
+  },
+  "Seattle vs. Portland (Oct 20)": {
+    "url": "https://www.mlssoccer.com/competitions/mls-regular-season/2024/matches/seavspor-10-19-2024/feed",
+    "misconduct": {
+      "misconduct": {
+        "red cards": {
+          "n_red_cards": 1,
+          "red_card_1": {
+            "minute": "69'",
+            "player": "O. Vargas",
+            "club": "SEA",
+            "description": "Obed Vargas (Seattle Sounders FC) is shown the second yellow (red) card for poor sportsmanship.18O. VargasMidfielderSEA"
+          }
+        },
+        "yellow cards": {
+          "n_yellow_cards": 2,
+          "yellow_card_1": {
+            "minute": "90'+5'",
+            "description": "Jonathan Rodr\u00edguez (Portland Timbers) is shown the yellow card for poor sportsmanship.",
+            "name": "Jonathan Rodr\u00edguez ",
+            "club": "Portland Timbers"
+          },
+          "yellow_card_2": {
+            "minute": "69'",
+            "description": "Albert Rusn\u00e1k (Seattle Sounders FC) is shown the yellow card for poor sportsmanship.",
+            "name": "Albert Rusn\u00e1k ",
+            "club": "Seattle Sounders FC"
+          }
+        }
+      }
+    }
+  }
+}

@@ -34,13 +34,13 @@ def create_dict(shift=None):
     dic = {}
     date = get_date(shift=shift)
     dic['url'] = create_url(shift=shift)
-    dic['outfile'] = f'{date}.json'
+    dic['outfile'] = f'match_list.json'
     dic['dir'] = f'{get_analysis_dir()}/url/{date}/'
     dic['wait_time'] = params['default_wait_time']
     return dic
 
 
-def main():
+def main(args):
     args=parse_args(args)
     dic=create_dict(shift=args['shift'])
     save_loc=get_analysis_dir()+'/'+params['create_lists_config']

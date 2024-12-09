@@ -1,0 +1,6 @@
+{
+    "input": "url/2024-10-18/stats.json",
+    "template": "webpage/config/html/template.html",
+    "output_dir": "webpage/webpage",
+    "date": "2024-10-18"
+}

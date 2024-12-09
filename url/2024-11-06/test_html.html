@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLS Match Misconduct</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .match-summary {
+      margin-bottom: 30px;
+    }
+    .red-card {
+      border-left: 4px solid #dc3545;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">MLS Match Misconduct</h1>
+
+    <!-- Yellow and Red Card Summary Table -->
+    <div class="table-responsive">
+      <h2 class="text-center">Match Misconduct Summary</h2>
+      <table class="table table-bordered table-hover text-center">
+        <thead class="table-dark">
+          <tr>
+            <th>Match</th>
+            <th>Yellow Cards</th>
+            <th>Red Cards</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody id="summary-table">
+          <!-- Rows will be populated dynamically -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Red Card Details Section -->
+    <div id="red-card-section" class="my-5">
+      <h2 class="text-center">Red Card Details</h2>
+      <div class="row g-3" id="red-card-cards">
+        <!-- Cards will be populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript to Populate Data -->
+  <script>
+    const data = {
+      "(4)Orlando vs. Atlanta(9) (Nov 25)": {
+        "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/orlvsatl-11-24-2024/feed",
+        "misconduct": {
+          "misconduct": {
+            "red cards": { "n_red_cards": 0 },
+            "yellow cards": {
+              "n_yellow_cards": 1,
+              "yellow_card_1": {
+                "minute": "59'",
+                "description": "Derrick Williams (Atlanta United) is shown the yellow card for the foul.",
+                "name": "Derrick Williams",
+                "club": "Atlanta United"
+              }
+            }
+          }
+        }
+      },
+      "(2)LA vs. Minnesota(6) (Nov 25)": {
+        "url": "https://www.mlssoccer.com/competitions/mls-cup-playoffs-cup-short/2024/matches/lavsmin-11-24-2024/feed",
+        "misconduct": {
+          "misconduct": {
+            "red cards": {
+              "n_red_cards": 1,
+              "red_card_1": {
+                "minute": "82'",
+                "player": "J. Diaz",
+                "club": "MIN",
+                "description": "Jefferson Diaz (Minnesota United) is shown the second yellow (red) card for the foul."
+              }
+            },
+            "yellow cards": { "n_yellow_cards": 6 }
+          }
+        }
+      }
+      // Additional matches here...
+    };
+
+    // Populate Summary Table
+    const summaryTable = document.getElementById('summary-table');
+    const redCardSection = document.getElementById('red-card-cards');
+
+    for (const [match, details] of Object.entries(data)) {
+      const misconduct = details.misconduct.misconduct;
+      const yellowCount = misconduct['yellow cards'].n_yellow_cards;
+      const redCount = misconduct['red cards'].n_red_cards;
+
+      // Add row to summary table
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td><a href="${details.url}" target="_blank">${match}</a></td>
+        <td>${yellowCount}</td>
+        <td>${redCount}</td>
+        <td><a href="#red-card-section">View Details</a></td>
+      `;
+      summaryTable.appendChild(row);
+
+      // Add cards for red cards
+      if (redCount > 0) {
+        for (let i = 1; i <= redCount; i++) {
+          const redCard = misconduct['red cards'][`red_card_${i}`];
+          const card = document.createElement('div');
+          card.className = 'col-md-4 red-card';
+          card.innerHTML = `
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">${redCard.player}</h5>
+                <p class="card-text">${redCard.description}</p>
+                <p class="text-muted">${redCard.club} | ${redCard.minute}</p>
+                <a href="${details.url}" target="_blank" class="btn btn-danger">View Match</a>
+              </div>
+            </div>
+          `;
+          redCardSection.appendChild(card);
+        }
+      }
+    }
+  </script>
+</body>
+</html>

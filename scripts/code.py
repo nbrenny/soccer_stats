@@ -61,7 +61,7 @@ def main():
         config = load_yaml(args['config'])
 
     input_json = config['saved_match_list_json'] if config else args['input_json']
-    output_json = os.path.dirname(input_json)+'/stats.json' if input_json else args['output_json']
+    output_json = os.path.dirname(input_json)+'/stats.json' if (config or input_json) else args['output_json']
     selenium = args['no_selenium']
     wait_time = args['wait_time']
 

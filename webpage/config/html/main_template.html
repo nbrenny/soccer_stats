@@ -1,0 +1,16 @@
+<html>
+<body>
+    <h1>MLS Weekly Statistics</h1>
+    <ul>
+        {% for month, weeks in grouped_pages.items() %}
+            <li>{{ month }}
+                <ul>
+                    {% for week in weeks %}
+                        <li><a href="{{ week }}.html">{{ week }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
